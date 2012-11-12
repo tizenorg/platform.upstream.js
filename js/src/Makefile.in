@@ -382,7 +382,7 @@ CPPSRCS += 	checks.cc \
 # END enclude sources for V8 dtoa
 #############################################
 
-ifeq (,$(filter-out powerpc sparc,$(TARGET_CPU)))
+ifeq (,$(filter-out powerpc powerpc64 s390 s390x,$(TARGET_CPU)))
 
 VPATH +=	$(srcdir)/assembler \
 		$(srcdir)/assembler/wtf \
