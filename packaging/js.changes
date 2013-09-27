@@ -1,0 +1,8 @@
+* Fri Sep 27 2013 Corentin Lecouvey <corentin.lecouvey@eurogiciel.fr> submit/master/20130924.000000@b625c86
+- sync version 1.0.0 with upstream tag (#TZPC-4409)
+- js-64bitbigendian
+- do-not-enforce-wrong-arm-flags
+- js-filter
+- inital packaging commit
+- Imported Upstream version 1.0.0
+
