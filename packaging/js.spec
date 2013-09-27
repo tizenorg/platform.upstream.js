@@ -2,12 +2,11 @@ Name:           js
 Summary:        JavaScript interpreter
 License:        MPL-1.1 or GPL-2.0+ or LGPL-2.1+
 Group:          Development/Languages/Other
-Version:        1.8.5
+Version:        1.0.0
 Release:        0
 Url:            http://www.mozilla.org/js/
 Source0:        http://ftp.mozilla.org/pub/mozilla.org/js/js185-1.0.0.tar.bz2
 Source98:       baselibs.conf
-BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 BuildRequires:  autoconf213
 BuildRequires:  gcc-c++
 BuildRequires:  nspr-devel
