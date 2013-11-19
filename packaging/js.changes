@@ -1,3 +1,6 @@
+* Mon Nov 18 2013 Michael Leibowitz <michael.leibowitz@intel.com> accepted/trunk/20131003.123212@01d8157
+- add changelog
+
 * Fri Sep 27 2013 Corentin Lecouvey <corentin.lecouvey@eurogiciel.fr> submit/master/20130924.000000@b625c86
 - sync version 1.0.0 with upstream tag (#TZPC-4409)
 - js-64bitbigendian
