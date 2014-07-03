@@ -5,7 +5,7 @@ Group:          Development/Languages/Other
 Version:        1.0.0
 Release:        0
 Url:            http://www.mozilla.org/js/
-Source0:        http://ftp.mozilla.org/pub/mozilla.org/js/js185-1.0.0.tar.bz2
+Source0:        http://ftp.mozilla.org/pub/mozilla.org/%{name}/%{name}-%{version}.tar.bz2
 Source98:       baselibs.conf
 BuildRequires:  autoconf213
 BuildRequires:  gcc-c++
