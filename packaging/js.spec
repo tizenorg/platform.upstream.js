@@ -52,7 +52,12 @@ you will need to install %{name}-devel.
 export MOZILLA_VERSION=%{version}
 cd js
 pushd src
-%configure --with-system-nspr --enable-threadsafe
+%ifarch aarch64
+export CPPFLAGS+=" -DENABLE_JIT=0 "
+export JIT_CONFIG_OPT="--disable-tracejit --disable-methodjit"
+%endif
+%configure --with-system-nspr --enable-threadsafe $JIT_CONFIG_OPT
+
 popd
 export BUILD_OPT=1
 %{__make} %{?_smp_mflags} -C src \
