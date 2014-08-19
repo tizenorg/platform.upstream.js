@@ -1534,6 +1534,10 @@ arm*)
     CPU_ARCH=arm
     ;;
 
+aarch64)
+    CPU_ARCH=aarch64
+    ;;
+
 mips|mipsel)
     CPU_ARCH="mips"
     ;;

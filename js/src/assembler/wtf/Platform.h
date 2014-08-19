@@ -292,6 +292,10 @@
 
 #endif /* ARM */
 
+/* CPU(AArch64) - 64-bit ARM */
+#if defined(__aarch64__)
+#define WTF_CPU_AARCH64 1
+#endif
 
 
 /* Operating systems - low-level dependencies */
